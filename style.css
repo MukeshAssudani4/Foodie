@@ -1,0 +1,875 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Header-Styling */
+.firstsection {
+  background-image: url(banner.jpg);
+  opacity: 0.96;
+  height: 350px;
+}
+
+.firstsection header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0px 0px;
+  background-color: #080b53;
+}
+
+.firstsection header .first h1 {
+  background-image: url(Logo.png);
+  margin: 10px 0px;
+  margin-right: 680px;
+}
+.firstsection header .middle a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.012em;
+  color: #fbf8f8;
+  padding: 0px 15px;
+  text-decoration: none;
+  margin: 20px 0px;
+  font-weight: bolder;
+}
+.firstsection header .middle a:hover {
+  color: #e7e3e3;
+}
+.firstsection header .last a img {
+  padding: 0px 10px;
+  margin: 20px 0px;
+}
+
+
+
+/* Main Styling */
+.firstsection main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px;
+}
+.firstsection main .left h1 {
+  font-size: 40px;
+  line-height: 82px;
+  color: #ffffff;
+  width: 500px;
+  height: 50px;
+  font-family: sans-serif;
+}
+.firstsection main .left p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.012em;
+  color: #ffffff;
+  width: 441px;
+  height: 40px;
+  margin: 30px 0px;
+}
+.firstsection main .left form input:nth-child(1) {
+  width: 500px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 10px 0px 0px 10px;
+  padding: 10px;
+  border: 2px solid #ffffff;
+  margin-left: 800px;
+  margin-top: 50px;
+}
+.firstsection main .left form input:nth-child(1):focus {
+  outline: none;
+  box-shadow: none;
+}
+.firstsection main .left form input:nth-child(2) {
+  width: 100px;
+  height: 50px;
+  background: #f3ba00;
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px;
+  border: 2px solid #f3ba00;
+  color: #ffffff;
+}
+.firstsection main .left form input:nth-child(2):hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Second-Section Styling */
+.secondsection {
+  background: #f7f8fa;
+}
+.secondsection .box {
+  margin: 0px 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.secondsection .box h2 {
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.012em;
+  color: #000000;
+  width: 200px;
+  height: 24px;
+  margin-bottom: 20px;
+}
+.secondsection .box .buttons button {
+  width: 100px;
+  height: 40px;
+  border: 2px solid #f3ba00;
+  color: #929292;
+  border-left: none;
+}
+.secondsection .box .buttons button:hover {
+  cursor: pointer;
+  background-color: #f3ba00;
+  color: #ffffff;
+}
+.secondsection .box .buttons button:nth-child(1) {
+  background-color: #f3ba00;
+  border-radius: 10px 0px 0px 10px;
+  width: 80px;
+  color: #000000;
+}
+.secondsection .box .buttons button:nth-child(1):hover {
+  cursor: pointer;
+  background-color: #f7f8fa;
+  color: #929292;
+}
+.secondsection .box .buttons button:nth-child(5) {
+  border-radius: 0px 10px 10px 0px;
+}
+.secondsection .box select {
+  width: 200px;
+  height: 40px;
+  margin-top: 30px;
+  background-color: #f7f8fa;
+  border-radius: 10px;
+  padding: 10px;
+  border-color: #929292;
+  color: #929292;
+  cursor: pointer;
+}
+.secondsection .box select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Third-Section Styling */
+.thirdsection {
+  background-color: #f7f8fa;
+  height: 700px;
+}
+.thirdsection .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.thirdsection .container .flex-container-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thirdsection .container .flex-container-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thirdsection .container .flex-box {
+  margin: 25px;
+  background-color: #ffffff;
+  padding-bottom: 15px;
+  border-radius: 0px 0px 10px 10px;
+}
+.thirdsection .container .flex-box h2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.012em;
+  color: #1b1c21;
+  margin-left: 10px;
+}
+.thirdsection .container .flex-box h2 span {
+  margin-left: 90px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.012em;
+  color: #1b1c21;
+}
+.thirdsection .container .flex-box h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.012em;
+  color: #1b1c21;
+  align-items: center;
+  margin-left: 10px;
+}
+.thirdsection .container .flex-box h3 span {
+  background: #bebebe;
+  padding: 3px;
+  border-radius: 5px;
+}
+.thirdsection .container .flex-box h3 span:nth-child(2) {
+  margin-right: 90px;
+}
+.thirdsection button {
+  width: 172px;
+  height: 46px;
+  left: 502px;
+  top: 812px;
+  border: 1px solid #f3ba00;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.012em;
+  color: #929292;
+  margin: 80px 0px 80px 650px;
+
+}
+.thirdsection button:hover {
+  color: #ffffff;
+  background-color: #f3ba00;
+  cursor: pointer;
+}
+
+
+
+/* Header-Styling */
+.fourthsection {
+  background-color: #080b53;
+  opacity: 0.96;
+  height: 70px;
+}
+
+.fourthsection header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0px 10px;
+}
+
+.fourthsection header .first h1 {
+  font-family: "Squada One", cursive;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 20px;
+  letter-spacing: -0.012em;
+  color: #ffffff;
+  margin: 10px 0px;
+  margin-right: 680px;
+}
+.fourthsection header .middle a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.012em;
+  color: #f0eded;
+  padding: 0px 15px;
+  text-decoration: none;
+  margin: 20px 0px;
+  font-weight: bolder;
+}
+.fourthsection header .middle a:hover {
+  color: #e7e3e3;
+}
+.fourthsection header .last a img {
+  padding: 0px 10px;
+  margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fifth-Section Styling */
+.fifth-section {
+  height: 700px;
+  left: 0px;
+  top: 2878px;
+  background: #f7f8fa;
+}
+.fifth-section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 50px;
+}
+.fifth-section .container h2 {
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.012em;
+  color: #101115;
+  width: 300px;
+  height: 48px;
+}
+.fifth-section .container p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: -0.012em;
+  color: #1b1c21;
+  width: 338px;
+  height: 20px;
+  margin: 10px 0px;
+}
+.fifth-section .container textarea {
+  width: 300px;
+  height: 58px;
+  background: #ffffff;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.012em;
+  color: #929292;
+  margin-top: 30px;
+  margin-right: 10px;
+  border: none;
+  padding: 20px;
+  overflow: hidden;
+}
+.fifth-section .container textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+.fifth-section .container textarea:nth-child(3) {
+  width: 616px;
+  height: 215px;
+  text-align: left;
+  padding: 0.4em;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #535584;
+  height: 200px;
+}
+
+
+footer .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px 50px 50px 50px;
+}
+
+footer .footer .first h1 {
+  font-family: "Squada One", cursive;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 20px;
+  letter-spacing: -0.012em;
+  color: #060000;
+  margin: 20px 0px;
+}
+footer .footer .middle a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.012em;
+  color: #030000;
+  padding: 0px 20px;
+  text-decoration: none;
+  margin: 20px 0px;
+}
+footer .footer .middle a:hover {
+  color: #e7e3e3;
+}
+footer .footer .last img {
+  padding: 0px 10px;
+  margin: 20px 0px;
+}
+footer .footer .last img:hover {
+  cursor: pointer;
+  transform: rotate(45deg);
+}
+footer .foot-end {
+  margin: 0px 50px;
+}
+footer .foot-end p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: -0.012em;
+  color: #ffffff;
+  padding-top: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 1310px) {
+  .firstsection {
+    background-image: url(cbiryani.jpg);
+    opacity: 0.96;
+    height: 400px;
+  }
+  .firstsection header {
+    margin: 0px 20px;
+  }
+}
+
+#search {
+  align-items: center;
+}
+/* Add the styles for the About Us section */
+.about-section {
+  background-color: #f7f8fa;
+  padding: 50px;
+  color: #101115;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #3498db; /* Change the color to your preferred accent color */
+}
+
+.about-section h3 {
+  font-size: 28px;
+  color: #333;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.about-section a {
+  color: #e74c3c; /* Change the color to your preferred link color */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.about-section a:hover {
+  color: #3498db; /* Change the color to your preferred hover color */
+  text-decoration: underline;
+}
+
+.thanks-message {
+  font-weight: bold;
+  margin-top: 40px;
+  color: #3498db;
+  font-size: 18px;
+}
+
+/* Creative styling */
+.about-section::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #3498db;
+  margin: 20px auto;
+}
+
+.about-section::after {
+  content: '';
+  display: block;
+  background: url('path/to/your-background-image.jpg') center/cover no-repeat;
+  height:0px; /* Adjust the height based on your image */
+  margin-top: 30px;
+  border-radius: 10px;
+}
+/* Contact Us Page Styling */
+.contact-section {
+  background-color: #f7f8fa;
+  padding: 50px;
+  color: #101115;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #3498db; /* Change the color to your preferred accent color */
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.contact-details,
+.contact-form {
+  width: 45%;
+}
+
+.contact-details h3,
+.contact-form h3 {
+  font-size: 28px;
+  color: #333;
+}
+
+.contact-details p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.contact-details a {
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-details a:hover {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form label {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #e74c3c;
+}
+/* Promotions and Discounts Page Styling */
+.promotions-section {
+  background-color: #f7f8fa;
+  padding: 100px;
+  color: #101115;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  text-align: center;
+}
+
+.promotions-section h2 {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #3498db; /* Change the color to your preferred accent color */
+}
+
+.promotion-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.promotion-card {
+  width: 45%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.promotion-card:hover {
+  transform: translateY(-5px);
+}
+
+.promotion-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #e74c3c; /* Change the color to your preferred accent color */
+}
+
+.promotion-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+  .promotion-cards {
+      flex-direction: column;
+  }
+
+  .promotion-card {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+}
+
+/* About Us Styling */
+.about-us-section,
+.order-history-section {
+  background-color: #f7f8fa;
+  padding: 50px;
+  color: #101115;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  text-align: center;
+}
+
+.about-us-section h2,
+.order-history-section h2 {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #3498db; /* Change the color to your preferred accent color */
+}
+
+.about-us-description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Order History Styling */
+/* Header-Styling */
+
+
+.order-history-list {
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.order {
+  width: 45%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 100px;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content inside the order box */
+}
+
+.order:hover {
+  transform: translateY(-5px);
+}
+
+.order h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #e74c3c; /* Change the color to your preferred accent color */
+}
+
+
+.order p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.order-status p {
+  font-size: 18px;
+  color: #28a745; /* Green color for delivered status */
+}
+
+.order-actions button {
+  background-color: #007bff; /* Blue color for buttons */
+  color: #fff;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order-actions button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.order-image {
+  width: 100%; /* Make the image take the full width of the container */
+  max-width: 200px; /* Adjust the max-width as needed */
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Center the order history list on the page */
+.order-history-section .order-history-list {
+  margin: 0 auto;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+  .order {
+    width: 100%;
+  }
+}
+
+.order img {
+  height: 200px;
+  width: 200px;
+  margin-left: -450px;
+}
+
+.Order1 {
+  margin-top: -200px;
+  margin-left: 40px;
+}
+
+/* Add to Cart Page Styling */
+.cart {
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 320px;
+  margin-bottom: 0%;
+  transition: transform 0.3s ease;
+  flex-direction: column;
+  align-items: center; /* Center content inside the cart */
+}
+
+.cart:hover {
+  transform: translateY(-5px);
+}
+
+.cart img {
+  max-width: 400px;
+  border-radius: 10px;
+  margin-bottom: -220px;
+  margin-left: 600px
+}
+
+.cart-details {
+  margin-right: 400px;
+
+}
+.cart-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #e74c3c; /* Change the color to your preferred accent color */
+}
+
+.cart-details p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.cart-details label {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.cart-details input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.cart-details button {
+  background-color: #007bff; /* Blue color for buttons */
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.cart-details button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+/* Add this section for form container styling */
+.fifth-section .form-container {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.fifth-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.fifth-section form textarea {
+  width: 100%;
+  height: 50px; /* Adjust the height as needed */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.fifth-section form button {
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fifth-section form button:hover {
+  background-color: #2980b9;
+}
+
+/* .flex-box img{
+  height: 250px;
+  width: 277px;
+  border-radius: 12px;
+} */
+

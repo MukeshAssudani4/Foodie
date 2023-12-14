@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food ordering website</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <section class="firstsection" id="firstsection">
+
+        <header>
+            <div class="first">
+                <h1 style="color:azure">FoodieRush</h1>
+            </div>
+            <div class="middle">
+                <a href="index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="ContactUs.html">Conatact Us</a>
+                <a href="Promotions.html">Promotions and offers</a>
+                <a href="Order History.html">Order History</a>
+
+            </div>
+            <div class="last">
+
+                <a href="Add to cart.html"> <img src="images/cart.svg" alt="cart-icon" /></a>
+            </div>
+        </header>
+
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <h3>Get In Touch</h3>
+                        <p>If you have any questions, feel free to reach out to us. We are here to help!</p>
+                        <p>Email: <a href="mailto:info@yourrestaurant.com">info@FoodieRush.com</a></p>
+                        <p>Phone: +1 (123) 456-7890</p>
+                    </div>
+
+                    <div class="contact-form">
+                        <h3>Send us a Message</h3>
+                        <form action="submit_form.php" method="post">
+                            <label for="name">Your Name:</label>
+                            <input type="text" id="name" name="name" required>
+
+                            <label for="email">Your Email:</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="message">Your Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer">
+                <div class="first">
+                    <h1>FoodieRush</h1>
+                </div>
+                <div class="middle">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="ContactUs.html">Contact Us</a>
+                    <a href="Promotions.html">Promotions and offers</a>
+                    <a href="Order History.html">order History</a>
+
+                </div>
+                <div class="last">
+                    <img src="images/facebook.png" alt="facebook-icon" />
+                    <img src="images/instagram.png" alt="instagram-icon" />
+                </div>
+            </div>
+            <div class="foot-end">
+                <hr />
+                <p>Copyright @2023 FoodieRush</p>
+            </div>
+        </footer>
+</body>
+
+</html>
